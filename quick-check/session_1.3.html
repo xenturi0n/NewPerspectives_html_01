@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    Session 1.3 Quick Check
+
+        1. Provide the code to mark the unordered list containing the items: Packers,
+        Vikings, Bears, Lions.
+
+        2. Provide the code to mark the following list of the top-five most popular movies
+        ranked in descending order according to IMDB:
+        5. Pulp Fiction
+        4. The Dark Knight
+        3. The Godfather: Part II
+        2. The Godfather
+        1. The Shawshank Redemption
+
+        3. Describe the three HTML elements used in a description list.
+
+        4. Provide the code to create a navigation list for the following list items: Home,
+        FAQ, Contact Us and pointing to the index.html, faq.html, and contacts.html
+        files respectively.
+
+        5. Using the folder structure shown in Figure 1-40, provide the relative path going
+        from the ct_about.html file to the ct_catering.html file.
+
+        6. Provide the URL pointing to the element in the glossary.html file with the ID
+        c_terms. Assume that the glossary.html file is in the same folder as the
+        current page.
+
+        7. Provide the URL to access the website at the address www.example.com/curbside
+        over a secure connection.
+
+        8. Provide the URL for an e-mail link to the address sajja@curbside.com with the
+        subject line FYI.
+
+        9. Provide the URL for a telephone link to the U.S. phone number 970-555-0002.  
+
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Session 1.2 Quick Check</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+        <ol>
+            <li>
+                <p>Provide the code to mark the unordered list containing the items: Packers, Vikings, Bears, Lions.</p>
+                <ul>
+                    <li>Packers</li>
+                    <li>Vikings</li>
+                    <li>Bears</li>
+                    <li>Lions</li>
+                </ul>
+                <hr />
+            </li>
+            <li>
+                <p>Provide the code to mark the following list of the top-five most popular movies ranked in descending order according to IMDB:
+                    <br/>5. Pulp Fiction<br/>
+                    4. The Dark Knight<br/>
+                    3. The Godfather: Part II<br/>
+                    2. The Godfather<br/>
+                    1. The Shawshank Redemption
+                </p>
+                <ol reversed>
+                    <li>Pulp Fiction</li>
+                    <li>The Dark Knight</li>
+                    <li>The Godfather: Part II</li>
+                    <li>The Godfather</li>
+                    <li>The Shawshank Redemption</li>
+                </ol>
+                <hr />
+            </li>
+            <li>
+                <p>Describe the three HTML elements used in a description list.</p>
+                <ol>
+                    <li><strong>dl:</strong> definition list</li>
+                    <li><strong>dt:</strong> definitionlist title</li>
+                    <li><strong>dd:</strong> definitionlist definition</li>
+                </ol>
+                <hr />
+            </li>
+            <li>
+                <p>Provide the code to create a navigation list for the following list items: Home, FAQ, Contact Us and pointing to the index.html, faq.html, and contacts.htmlfiles respectively.</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contacts.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <hr />
+            </li>
+            <li>
+                <p>Using the folder structure shown in Figure 1-40, provide the relative path going from the ct_about.html file to the ct_catering.html file.</p>
+                <h3><a href="../tutorial/thai/docs/catering/ct_catering.html">../catering/ct_catering.html</a></h3>
+                <hr />
+            </li>
+            <li>
+                <p>Provide the URL pointing to the element in the glossary.html file with the ID c_terms. Assume that the glossary.html file is in the same folder as the current page</p>
+                <h3>glossary.html#c_terms</h3>
+                <hr />
+            </li>
+            <li>
+                <p>Provide the URL to access the website at the address www.example.com/curbside over a secure connection</p>
+                <h3><a href="https://www.example.com/curbside">https://www.example.com/curbside</a></h3>
+            </li>
+            <li>
+                <p>Provide the URL for an e-mail link to the address sajja@curbside.com with the subject line FYI</p>
+                <h3><a href="mailto:sajja@curbside.com?subject=FYI">mailto:sajja@curbside.com?subject=FYI</a></h3>    
+            </li>
+            <li>
+                <p>Provide the URL for a telephone link to the U.S. phone number 970-555-0002</p>
+                <h3>Tel: <a href="tel:+19705550002">970-555-0002</a></h3>
+            </li>
+        </ol>
+</body>
+</html>
